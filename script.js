@@ -6,7 +6,7 @@ var imgsDino = [];
 var imgDinoAtual = 0;
 
 function preload() {
-    imgChao = loadImage('assets/chao.png');
+    imgChao = loadImage('assets/floor.png');
     imgFundo = loadImage('assets/bg.jpeg');
     for (var i = 1; i <= 8; i++) {
         imgsDino.push(loadImage(`assets/dino/${i}.png`));
